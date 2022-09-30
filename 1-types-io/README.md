@@ -1,0 +1,39 @@
+# 1-types-io
+
+- [x] `circle.c`
+  - [x] declaration/definition
+  - [x] `printf`
+    - [x] `%f`
+    - [x] `%.2f`
+  - [x] initialization
+  - [x] operator, expression, assignment statement
+- `sphere.c`
+  - [x] `printf`
+    - [x] `%.4f`
+    - [x] `%15.4f`
+    - [x] `%-15.4f`
+  - [x] `4 / 3`
+    - [x] `4.0 / 3`
+  - [x] `math.h`
+    - [x] `pow`
+    - [x] `-lm`
+    - [x] `target_link_libraries(sphere m)`
+- [x] `mol.c` 
+  - [x] `e/E`
+  - [x] `mass * 1.0`
+  - [x] `printf`
+    - [x] `%f`
+    - [x] `%e/%E`
+    - [x] `%.3e/%.3E`
+- [x] `admin.c`
+  - [x] c string
+  - [x] `char`
+  - [x] `\t`
+  - [x] `%.2d`
+  - [x] `%.3s`
+  - [x] `%%`
+- [x] `admin-scanf.c`
+  - [x] copy from `admin.c`
+  - [x] `&`
+  - [x] `*f` vs. `*lf` (search StackOverflow)
+  - [ ] input/output indirection
