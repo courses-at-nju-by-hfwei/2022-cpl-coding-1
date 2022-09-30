@@ -96,6 +96,12 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "0-intro/CMakeLists.txt"
+		},
+		{
+			"path" : "1-types-io/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

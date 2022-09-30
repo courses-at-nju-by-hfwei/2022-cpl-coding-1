@@ -1,0 +1,146 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "0-intro",
+					"jsonFile" : "directory-0-intro-Debug-13b31864666c85ec368a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "0-intro",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "1-types-io",
+					"jsonFile" : "directory-1-types-io-Debug-557521dfdc9490a16800.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "1-types-io",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "2022_cpl_coding_1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "admin::@592ee50047900f3dac72",
+					"jsonFile" : "target-admin-Debug-7ce92910df4cdacb7d58.json",
+					"name" : "admin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "admin-scanf::@592ee50047900f3dac72",
+					"jsonFile" : "target-admin-scanf-Debug-1ddbac819092b012a601.json",
+					"name" : "admin-scanf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "circle::@592ee50047900f3dac72",
+					"jsonFile" : "target-circle-Debug-3973f49086368ecefad9.json",
+					"name" : "circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "guess::@53414a9831fb1dd599fc",
+					"jsonFile" : "target-guess-Debug-0905334cf869ef42b152.json",
+					"name" : "guess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hello::@53414a9831fb1dd599fc",
+					"jsonFile" : "target-hello-Debug-27a08a829266e65bf406.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mol::@592ee50047900f3dac72",
+					"jsonFile" : "target-mol-Debug-b10cbb5af95e3a6fd496.json",
+					"name" : "mol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sphere::@592ee50047900f3dac72",
+					"jsonFile" : "target-sphere-Debug-637ddbd7a5f42bf49cbc.json",
+					"name" : "sphere",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug",
+		"source" : "/home/hengxin/Documents/cpl/2022-cpl-coding-1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
