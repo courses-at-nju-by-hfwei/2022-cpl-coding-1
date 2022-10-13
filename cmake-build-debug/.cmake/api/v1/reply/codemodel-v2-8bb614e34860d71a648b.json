@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -32,8 +33,8 @@
 					"source" : "0-intro",
 					"targetIndexes" : 
 					[
-						3,
-						4
+						5,
+						6
 					]
 				},
 				{
@@ -50,9 +51,9 @@
 					[
 						0,
 						1,
-						2,
-						13,
-						14
+						3,
+						15,
+						19
 					]
 				},
 				{
@@ -67,14 +68,34 @@
 					"source" : "2-if-for-array",
 					"targetIndexes" : 
 					[
-						5,
-						6,
 						7,
 						8,
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "3-for-a-while",
+					"jsonFile" : "directory-3-for-a-while-Debug-6725d83b46090e7dcb65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3-for-a-while",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						16,
+						17,
+						18,
+						20
 					]
 				}
 			],
@@ -87,7 +108,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "2022_cpl_coding_1",
 					"targetIndexes" : 
@@ -106,7 +128,13 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
 					]
 				}
 			],
@@ -127,10 +155,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "binary-search::@a95ac0ded7e648dc8f12",
+					"jsonFile" : "target-binary-search-Debug-d8eb52c7972cf0c96be6.json",
+					"name" : "binary-search",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "circle::@592ee50047900f3dac72",
 					"jsonFile" : "target-circle-Debug-3973f49086368ecefad9.json",
 					"name" : "circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "digits::@a95ac0ded7e648dc8f12",
+					"jsonFile" : "target-digits-Debug-26722f9d0e42842e79ad.json",
+					"name" : "digits",
 					"projectIndex" : 0
 				},
 				{
@@ -211,10 +253,38 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "palindrome::@a95ac0ded7e648dc8f12",
+					"jsonFile" : "target-palindrome-Debug-ffb34b19bb4e9bcab135.json",
+					"name" : "palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "primes::@a95ac0ded7e648dc8f12",
+					"jsonFile" : "target-primes-Debug-d264b3f338deb486c937.json",
+					"name" : "primes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "selection-sort::@a95ac0ded7e648dc8f12",
+					"jsonFile" : "target-selection-sort-Debug-57717c7f491aec3d7087.json",
+					"name" : "selection-sort",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "sphere::@592ee50047900f3dac72",
 					"jsonFile" : "target-sphere-Debug-637ddbd7a5f42bf49cbc.json",
 					"name" : "sphere",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "stars::@a95ac0ded7e648dc8f12",
+					"jsonFile" : "target-stars-Debug-7b16750c42da243eb1c6.json",
+					"name" : "stars",
 					"projectIndex" : 0
 				}
 			]
