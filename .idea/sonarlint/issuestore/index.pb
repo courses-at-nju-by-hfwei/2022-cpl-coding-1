@@ -19,3 +19,11 @@ M
 2-if-for-array/leap-if-else.c,d/7/d732fba55d51026890d3d7a59c672f9c9bf65bdc
 M
 2-if-for-array/leap-else-if.c,8/5/85ae021ede8ca135eff4bad6d02ec06621cdefaf
+L
+2-if-for-array/leap-elseif.c,d/2/d281014bb9c88029d8d7f53c4aefe11eae4bfdf0
+J
+2-if-for-array/min-array.c,b/a/bafa4b5fefa111d9153befb5ef7a8f610718a3e0
+P
+ 2-if-for-array/min-array-input.c,3/3/335af31eed872e15188b74a7bdefcb75d2706dd0
+E
+2-if-for-array/leap.c,a/c/ac52a189f5fabeddbcee9fdf70bd39b222a21d7e
