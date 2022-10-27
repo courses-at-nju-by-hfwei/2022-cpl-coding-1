@@ -5,7 +5,7 @@
 		<Option title="2022_cpl_coding_1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\0-intro\;CMake Files\1-types-io\;CMake Files\2-if-for-array\;CMake Files\3-for-a-while\;CMake Files\4-loops\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\0-intro\;CMake Files\1-types-io\;CMake Files\2-if-for-array\;CMake Files\3-for-a-while\;CMake Files\4-loops\;CMake Files\5-function\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug"/>
@@ -949,6 +949,386 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/4-loops/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="leap-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/leap-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 leap-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leap-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/leap-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 leap-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primes-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/primes-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 primes-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primes-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/primes-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 primes-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stars-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/stars-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 stars-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stars-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/stars-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 stars-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guess-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/guess-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 guess-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guess-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/guess-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 guess-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary-search-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/binary-search-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 binary-search-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary-search-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/binary-search-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 binary-search-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindrome-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/palindrome-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 palindrome-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindrome-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/palindrome-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 palindrome-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/merge-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 merge-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/merge-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 merge-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selection-sort-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/selection-sort-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 selection-sort-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selection-sort-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/selection-sort-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 selection-sort-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game-of-life-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/game-of-life-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 game-of-life-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game-of-life-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/game-of-life-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 game-of-life-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game-of-life-transformed-func">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/game-of-life-transformed-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 game-of-life-transformed-func"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game-of-life-transformed-func/fast">
+				<Option output="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/game-of-life-transformed-func" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 game-of-life-transformed-func/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/2022-cpl-coding-1/cmake-build-debug/5-function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/0-intro/guess.c">
 			<Option target="guess"/>
@@ -1022,6 +1402,36 @@
 		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/4-loops/merge.c">
 			<Option target="merge"/>
 		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/binary-search.c">
+			<Option target="binary-search-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/game-of-life-transformed.c">
+			<Option target="game-of-life-transformed-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/game-of-life.c">
+			<Option target="game-of-life-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/guess.c">
+			<Option target="guess-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/leap.c">
+			<Option target="leap-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/merge.c">
+			<Option target="merge-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/palindrome.c">
+			<Option target="palindrome-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/primes.c">
+			<Option target="primes-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/selection-sort.c">
+			<Option target="selection-sort-func"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/stars.c">
+			<Option target="stars-func"/>
+		</Unit>
 		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -1039,6 +1449,9 @@
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/4-loops/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\4-loops\"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/2022-cpl-coding-1/5-function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\5-function\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
