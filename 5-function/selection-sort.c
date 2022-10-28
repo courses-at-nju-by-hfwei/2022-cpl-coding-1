@@ -5,7 +5,9 @@
 
 #define LEN 20
 
+void Swap(int left, int right);
 void Print(const int arr[], int len);
+void SelectionSort(int arr[], int len);
 
 int main() {
   int numbers[LEN] = {0};
@@ -21,24 +23,9 @@ int main() {
 //  while (scanf("%d", &numbers[++len]) == 1);
 
   Print(numbers, len);
-
-  for (int i = 0; i < len; i++) {
-    // find the minimum of numbers[i .. len - 1]
-    int min = numbers[i];
-    int min_index = i;
-    for (int j = i + 1; j < len; j++) {
-      if (numbers[j] < min) {
-        min = numbers[j];
-        min_index = j;
-      }
-    }
-
-    // swap numbers[i] and numbers[min_index]
-    int tmp = numbers[i];
-    numbers[i] = numbers[min_index];
-    numbers[min_index] = tmp;
-  }
-
+  // numbers: pass the address of the first element of the `numbers` array
+  // pass by value: pass the copy of the address of the first element of the `numbers` array
+  SelectionSort(numbers, len);
   Print(numbers, len);
 }
 
@@ -49,3 +36,33 @@ void Print(const int arr[], int len) {
   }
   printf("\n");
 }
+
+void SelectionSort(int arr[], int len) {
+  for (int i = 0; i < len; i++) {
+    // find the minimum of arr[i .. len - 1]
+    int min = arr[i];
+    int min_index = i;
+    for (int j = i + 1; j < len; j++) {
+      if (arr[j] < min) {
+        min = arr[j];
+        min_index = j;
+      }
+    }
+
+    // swap arr[i] and arr[min_index]
+    int tmp = arr[i];
+    arr[i] = arr[min_index];
+    arr[min_index] = tmp;
+
+    // Warning: This does not work due to the "pass by value" mechanism.
+//    Swap(arr[i], arr[min_index]);
+  }
+}
+
+// left = 1, right = 5
+//void Swap(int left, int right) {
+//  int tmp = left;
+//  left = right;
+//  right = tmp;
+//}
+// right = 1, left = 5
