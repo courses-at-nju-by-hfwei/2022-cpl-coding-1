@@ -1,3 +1,5 @@
+add_executable(main-re main-re.c)
+
 add_executable(min min.c)
 add_executable(min-re min-re.c)
 
