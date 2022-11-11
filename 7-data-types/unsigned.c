@@ -10,7 +10,6 @@ int main() {
 
   size_t size = sizeof array;
   printf("The size of the array is %zu\n", size);
-  // long long size = (long long) sizeof array;
 
   if (i <= size) {
     printf("i <= sizeof array\n");

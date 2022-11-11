@@ -10,11 +10,6 @@ int main() {
   printf("UINT_MIN = %u\n", 0U);
   printf("UINT_MAX = %u\n\n", UINT_MAX);
 
-  // TODO:
-  short sh = SHRT_MIN;
-  printf("SHRT_MIN = %hd\n", sh);
-  printf("SHRT_MAX = %hd\n\n", SHRT_MAX);
-
   printf("LONG_MIN = %ld\n", LONG_MIN);
   printf("LONG_MAX = %ld\n\n", LONG_MAX);
 

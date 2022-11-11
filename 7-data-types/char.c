@@ -5,8 +5,9 @@
 #include <stdio.h>
 
 int main() {
-  // char c = 150;
-  unsigned char c = 150;
+  // (signed) char on my computer: -128 ~ 127
+  // using unsigned char c = 150;
+  char c = 150;
   int i = 900;
 
   printf("i / c = %d\n", i / c);

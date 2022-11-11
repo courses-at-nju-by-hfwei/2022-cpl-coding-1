@@ -23,46 +23,36 @@ int main() {
 }
 
 void Merge(int nums[], int left, int mid, int right) {
-  // make a copy of nums[left .. right]
-  int size = right - left + 1;
-  // use VLA (variable-length arrays)
-  // introduced since C99
-  // but made optional since C11
-  int copy[size];
-  for (int i = 0, j = left; i < size; i++, j++) {
-    copy[i] = nums[j];
-  }
+  // add code here
 
-  int left_index = left;
-  int right_index = mid + 1;
-  int copy_index = 0;
+  // int left_index = left;
+  // int right_index = mid + 1;
+  // int copy_index = 0;
+  //
+  // while (left_index <= mid && right_index <= right) {
+  //   if (nums[left_index] <= nums[right_index]) {
+  //     copy[copy_index] = nums[left_index];
+  //     left_index++;
+  //   } else {
+  //     copy[copy_index] = nums[right_index];
+  //     right_index++;
+  //   }
+  //
+  //   copy_index++;
+  // }
+  //
+  // while (left_index <= mid) {
+  //   copy[copy_index] = nums[left_index];
+  //   left_index++;
+  //   copy_index++;
+  // }
+  //
+  // while (right_index <= right) {
+  //   copy[copy_index] = nums[right_index];
+  //   right_index++;
+  //   copy_index++;
+  // }
 
-  while (left_index <= mid && right_index <= right) {
-    if (nums[left_index] <= nums[right_index]) {
-      copy[copy_index] = nums[left_index];
-      left_index++;
-    } else {
-      copy[copy_index] = nums[right_index];
-      right_index++;
-    }
+  // add code here
 
-    copy_index++;
-  }
-
-  while (left_index <= mid) {
-    copy[copy_index] = nums[left_index];
-    left_index++;
-    copy_index++;
-  }
-
-  while (right_index <= right) {
-    copy[copy_index] = nums[right_index];
-    right_index++;
-    copy_index++;
-  }
-
-  // copy back
-  for (int i = 0, j = left; i < size; i++, j++) {
-    nums[j] = copy[i];
-  }
 }

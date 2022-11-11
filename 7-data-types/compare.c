@@ -2,6 +2,8 @@
  * file: compare.c
  *
  * See https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/
+ *
+ * Created by hfwei on 2022/11/10.
  */
 
 #include <float.h>

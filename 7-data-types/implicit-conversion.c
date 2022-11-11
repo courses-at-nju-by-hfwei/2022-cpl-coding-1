@@ -9,20 +9,13 @@ int SquareInt(int num);
 double SquareDouble(double num);
 
 int main() {
-  // then i = 3; narrowing conversion (still in the range)
-  int i = 3.14159;
-
-  // narrowing conversion
-  int square_int = SquareInt(3.14);
-  printf("SquareInt(3.14) = %d\n", square_int);
-
-  // narrowing conversion
-  int square_double = SquareDouble(3.14);
-  printf("SquareDouble(3.14) = %d\n", square_double);
+  // narrowing conversion (still in the range)
 
   // out of the range: undefined behavior!!!
-  int j = UINT_MAX;
-  printf("j = UINT_MAX = %d\n", j);
+
+  // arguments; narrowing conversion
+
+  // return value; narrowing conversion
 
   return 0;
 }
