@@ -8,6 +8,7 @@ int main() {
   int array[] = {0, 1, 2, 3, 4};
   int i = -1;
 
+  // typedef unsigned long long int size_t
   size_t size = sizeof array;
   printf("The size of the array is %zu\n", size);
 

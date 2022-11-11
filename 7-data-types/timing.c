@@ -11,7 +11,11 @@ int main() {
   int n;
   scanf("%d", &n);
 
+  clock_t start = clock();
   printf("Fib(%d) = %lld\n", n, Fib(n));
+  clock_t end = clock();
+
+  printf("Time is %f\n", ((double) end - start) / CLOCKS_PER_SEC);
 
   return 0;
 }

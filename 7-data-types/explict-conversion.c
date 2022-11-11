@@ -9,12 +9,15 @@ int main() {
   double pi = 3.14159;
 
   // below: obtain its fractional part
+  double fraction = pi - (int) pi;
 
-  // int num = 1000000000;
-  // printf("LLONG_MAX = %lld\n", LLONG_MAX);
-  // // long long llint = num * num;
+  int num = 1000000000;
+  printf("LLONG_MAX = %lld\n", LLONG_MAX);
+  // long long llint = num * num;
   // long long llint = (long long) num * num;
-  // printf("i = %lld\n", llint);
+  long long llint = (long long) (num * num);
+
+  printf("llint = %lld\n", llint);
 
   return 0;
 }
