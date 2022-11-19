@@ -5,7 +5,7 @@
 
 #define LEN 20
 
-void Swap(int left, int right);
+void WrongSwap(int left, int right);
 void Print(const int arr[], int len);
 void SelectionSort(int arr[], int len);
 
@@ -55,12 +55,12 @@ void SelectionSort(int arr[], int len) {
     arr[min_index] = tmp;
 
     // Warning: This does not work due to the "pass by value" mechanism.
-//    Swap(arr[i], arr[min_index]);
+//    WrongSwap(arr[i], arr[min_index]);
   }
 }
 
 // left = 1, right = 5
-//void Swap(int left, int right) {
+//void WrongSwap(int left, int right) {
 //  int tmp = left;
 //  left = right;
 //  right = tmp;

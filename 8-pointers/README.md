@@ -2,7 +2,7 @@
 
 ## `radius.c`
 
-## Swap Numbers (`selection-sort.c`)
+## WrongSwap Numbers (`selection-sort.c`)
 
 ## Pointers and Arrays (`selection-sort.c`)
 
