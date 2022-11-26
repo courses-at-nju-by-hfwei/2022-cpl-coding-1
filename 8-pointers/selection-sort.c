@@ -32,10 +32,12 @@ int main() {
   SelectionSort(numbers, len);
   Print(numbers, len);
 
-  // free(numbers);
+  free(numbers);
 
   // free(numbers);
   // numbers[2] = 2;
+
+  return 0;
 }
 
 void Print(const int arr[], int len) {

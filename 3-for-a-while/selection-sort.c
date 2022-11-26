@@ -14,6 +14,7 @@ int main() {
    * Use "Terminal" instead.
    */
   int len = -1;
+  // input indirection (输入重定向)
   while (scanf("%d", &numbers[++len]) != EOF);
 
   for (int i = 0; i < len; i++) {
