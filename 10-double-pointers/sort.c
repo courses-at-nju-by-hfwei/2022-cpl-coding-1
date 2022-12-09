@@ -3,8 +3,7 @@
  *
  * Created by hengxin on 12/01/22.
  *
- * A nice function pointer example on Riemann integration:
- * https://en.wikipedia.org/wiki/Function_pointer
+ * See also bsearch: https://en.cppreference.com/w/c/algorithm/bsearch
  */
 
 #include <stdio.h>
@@ -21,9 +20,11 @@ int main() {
   int size_of_integers = sizeof integers / sizeof *integers;
 
   /**
+   * qsort: https://en.cppreference.com/w/c/algorithm/qsort
    * void qsort( void *ptr, size_t count, size_t size,
             int (*comp)(const void *, const void *) );
    */
+  // sort ints here
 
   PrintInts(integers, size_of_integers);
 
@@ -41,6 +42,8 @@ int main() {
       "Li Zhi"
   };
   int size_of_names = sizeof names / sizeof *names;
+
+  // sort musicians here
 
   PrintStrs(names, size_of_names);
 }
