@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 typedef enum gender {
   MALE, FEMALE,
@@ -24,7 +25,8 @@ typedef struct musician {
   Score score;
 } Musician;
 
-void PrintMusician(const Musician m);
+void PrintMusician(const Musician *m);
+int CompareMusicians(const void *m1, const void *m2);
 
 int main() {
   printf("sizeof Musician : %zu\n", sizeof(Musician));
@@ -61,18 +63,37 @@ int main() {
   Musician guo = zhang;
   guo.name = "guo";
   strcpy(guo.album, "YiKeMeiSuDeXin");
-  PrintMusician(guo);
-  PrintMusician(zhang);
+  PrintMusician(&guo);
+  PrintMusician(&zhang);
+
+  Musician musicians[] = {luo, cui, zhang};
+  int len = sizeof musicians / sizeof *musicians;
+  for (int i = 0; i < len; i++) {
+    PrintMusician(musicians + i);
+  }
+
+  qsort(musicians, len,
+        sizeof *musicians, CompareMusicians);
+  for (int i = 0; i < len; i++) {
+    PrintMusician(musicians + i);
+  }
 
   return 0;
 }
 
-void PrintMusician(const Musician m) {
+void PrintMusician(const Musician *m) {
   printf("\n%s\t%d\t%s\t%d\t%d\t%d\n",
-         m.name,
-         m.gender,
-         m.album,
-         m.score.c_score,
-         m.score.java_score,
-         m.score.python_score);
+         m->name,
+         m->gender,
+         m->album,
+         m->score.c_score,
+         m->score.java_score,
+         m->score.python_score);
+}
+
+// argument: const Musician *
+int CompareMusicians(const void *m1, const void *m2) {
+  const Musician *m_left = m1;
+  const Musician *m_right = m2;
+  return strcmp(m_left->album, m_right->album);
 }
